@@ -10,6 +10,7 @@ public class HelloController {
     @RequestMapping("/docker/hello")
     @ResponseBody
     public String sayHello() {
-        return "Hello, Docker Spring Boot Demo!" + "测试Docker Hub + Github自动构建技术";
+        return "Hello, Docker Spring Boot Demo!"
+                + " 测试Docker Hub + Github自动构建技术 + Tag.";
     }
 }
