@@ -11,6 +11,6 @@ public class HelloController {
     @ResponseBody
     public String sayHello() {
         return "Hello, Docker Spring Boot Demo!"
-                + " 测试Docker Hub + Github自动构建技术 + Tag.";
+                + " 测试Docker Hub + Github自动构建技术 + Tag";
     }
 }
